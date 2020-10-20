@@ -1,6 +1,6 @@
 ![Image description](https://i1.faceprep.in/ProGrad/prograd-logo.png)
 
-# ProGrad Lab | REACT - PROBIBO
+# ProGrad Lab | REACT - FORMS
 
 ## Learning Goals
 
@@ -30,39 +30,54 @@ The entire application looks like this
 ![Screenshot](https://i1.faceprep.in/ProGrad/l4-output2.png)
 ![Screenshot](https://i1.faceprep.in/ProGrad/l4-output4.png)
 ![Screenshot](https://i1.faceprep.in/ProGrad/l4-output3.png)
-### PROGRESSION 1 | CREATE A HOME COMPONENT
 
-Create a home component and design it as per the screenshot shown below. The home button should display the home component and and also the total trips.
+### PROGRESSION 1 | FORM COMPONENT
 
-![Screenshot](https://i1.faceprep.in/ProGrad/l5-homecomponent.png)
+Create a form component and there are two parts in the form component. Personal and Business. When the user select personal. The first three fields should be displayed
+similar to the output shown here
+
+![Screenshot](https://i1.faceprep.in/ProGrad/l4-output1.png).
 
 
-### PROGRESSION 2 | TRIP TIME
+Personal details consists of the following.
 
-When you click the add trip button, You should display a form with with the following fields
-- date
-- place
-- type
-    - trek
-    - tropic
-    - club
+- firstName
+- lastName
+- email
+- phoneNumber
+- Country
+- IFSC code
+- account Number
+- Country Id
+- city
+- postcode
+- address
+
+When the user selects the business. Then the followings details has to be got.
+- businessName
+- emall
+- phoneNumber
+
+![Screenshot](https://i1.faceprep.in/ProGrad/l4-output5.png).
+
+### PROGRESSION 2 | CURRENCY
+
+Create a currency.json and keep a list of currencies. Based on the country selected the currency name should be displayed dynamically. Display the country in the drop down list box.
 
 The data can be stored in an array
-![Screenshot](https://i1.faceprep.in/ProGrad/l5-tripcomponent.png)
+![Screenshot](https://i1.faceprep.in/ProGrad/l4-output4.png).
+
+### PROGRESSION 3 | PRINT THE DATA
+Display the detail in display component.
 
 
-### PROGRESSION 3 | BUCKET LIST
+### Bonus | VALIDATIONS
 
-Render the list of all the places with time and date
+You can add validations to the form field
 
-![Screenshot](https://i1.faceprep.in/ProGrad/l5-listcomponent.png)
+### Bonus | UI DESIGN
 
-### Bonus | TREKS TROPICS & CLUBS
-
-Based on the selection filter out the particular type of trips.
-![Screenshot](https://i1.faceprep.in/ProGrad/l5-clubfilter.png)
-![Screenshot](https://i1.faceprep.in/ProGrad/l5-trekfilter.png)
-![Screenshot](https://i1.faceprep.in/ProGrad/l5-tropicfilter.png)
+You are free to style the form as per your own creativity.
 
 ## Submission
 

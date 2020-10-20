@@ -20,12 +20,8 @@ Whenever you create a first significant change, you should make your first commi
 In the end of this document, you will find guidelines on how to submit the exercise.
 
 ## Instructions
-In this lab we will try to work with routing in react and also try to use basic forms. The main idea of this lab is to store down the trip details of the form and display it. We have three components 
-- HomeComponent
-- AddTripComponent
-- ListComponent
+In this lab we will try to work with forms. You can see the below output for reference.
 
-The entire application looks like this
 ![Screenshot](https://i1.faceprep.in/ProGrad/l4-output1.png)
 ![Screenshot](https://i1.faceprep.in/ProGrad/l4-output2.png)
 ![Screenshot](https://i1.faceprep.in/ProGrad/l4-output4.png)
@@ -34,7 +30,8 @@ The entire application looks like this
 ### PROGRESSION 1 | FORM COMPONENT
 
 Create a form component and there are two parts in the form component. Personal and Business. When the user select personal. The first three fields should be displayed
-similar to the output shown here
+similar to the output shown here.
+**Note: Please use conditionals in react to switch between Personal and Business**.
 
 ![Screenshot](https://i1.faceprep.in/ProGrad/l4-output1.png).
 
